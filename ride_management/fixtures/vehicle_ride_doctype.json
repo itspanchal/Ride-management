@@ -1,0 +1,32 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Vehicle Ride Doctype",
+  "image": "/files/suv.webp",
+  "make": "Toyota",
+  "modified": "2025-05-06 13:24:16.099029",
+  "name": "Toyota Fortuner",
+  "price_per_km": 25.0,
+  "type": "SUV"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Vehicle Ride Doctype",
+  "image": "/files/Yamaha R15.jpeg",
+  "make": "Yamaha",
+  "modified": "2025-05-06 13:25:34.440358",
+  "name": "Yamaha R15",
+  "price_per_km": 10.0,
+  "type": "Bike"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Vehicle Ride Doctype",
+  "image": "/files/Sedan .avif",
+  "make": "Honda",
+  "modified": "2025-05-06 13:22:13.356455",
+  "name": "Honda City",
+  "price_per_km": 15.0,
+  "type": "Sedan"
+ }
+]

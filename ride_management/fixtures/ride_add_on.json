@@ -1,0 +1,79 @@
+[
+ {
+  "amount": 0.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-05-06 15:33:40.729315",
+  "name": "c6v6jp5kan",
+  "parent": "field:vehicle-{year}-0001",
+  "parentfield": "services",
+  "parenttype": "Ride Booking DocType",
+  "service": "Tourist Guides"
+ },
+ {
+  "amount": 0.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-05-06 15:38:03.310488",
+  "name": "ep1m04ks0o",
+  "parent": "field:make-{year}-0002",
+  "parentfield": "services",
+  "parenttype": "Ride Booking DocType",
+  "service": "Wi-Fi Access"
+ },
+ {
+  "amount": 0.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-05-06 15:53:16.468022",
+  "name": "nmc1hqlmp7",
+  "parent": "field:make-{year}-0003",
+  "parentfield": "services",
+  "parenttype": "Ride Booking DocType",
+  "service": "Wi-Fi Access"
+ },
+ {
+  "amount": 0.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-05-06 16:33:51.635789",
+  "name": "ffceoctnt4",
+  "parent": "field:make-{year}-0004",
+  "parentfield": "services",
+  "parenttype": "Ride Booking DocType",
+  "service": "Wi-Fi Access"
+ },
+ {
+  "amount": 0.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-05-06 16:50:32.877301",
+  "name": "p88t4q5t7h",
+  "parent": "field:make-{year}-0005",
+  "parentfield": "services",
+  "parenttype": "Ride Booking DocType",
+  "service": "Travel Insurance"
+ },
+ {
+  "amount": 0.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-05-06 16:53:06.933758",
+  "name": "qod4du0e01",
+  "parent": "qod6u6qncp",
+  "parentfield": "services",
+  "parenttype": "Ride Booking DocType",
+  "service": "Tourist Guides"
+ },
+ {
+  "amount": 0.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-05-06 17:08:26.444386",
+  "name": "3no6snjt26",
+  "parent": "YAMAHAR15-2025-00001",
+  "parentfield": "services",
+  "parenttype": "Ride Booking DocType",
+  "service": "Tourist Guides"
+ }
+]

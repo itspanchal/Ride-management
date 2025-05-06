@@ -1,0 +1,210 @@
+[
+ {
+  "booking_date": "2025-05-08",
+  "customer": "krupa panchal",
+  "customer_name": "krupa panchal",
+  "docstatus": 0,
+  "doctype": "Ride Booking DocType",
+  "estimated_km": 17.0,
+  "make": "Honda",
+  "modified": "2025-05-06 15:33:40.729315",
+  "name": "field:vehicle-{year}-0001",
+  "naming_series": null,
+  "phone_number": "9909989123",
+  "price_per_km": "15",
+  "return_date": "2025-05-10",
+  "services": [
+   {
+    "amount": 0.0,
+    "parent": "field:vehicle-{year}-0001",
+    "parentfield": "services",
+    "parenttype": "Ride Booking DocType",
+    "service": "Tourist Guides"
+   }
+  ],
+  "total_amount": 0.0,
+  "type": "Sedan",
+  "vehicle": "Honda City"
+ },
+ {
+  "booking_date": "2025-05-07",
+  "customer": "krupa panchal",
+  "customer_name": "krupa panchal",
+  "docstatus": 0,
+  "doctype": "Ride Booking DocType",
+  "estimated_km": 43.0,
+  "make": "Yamaha",
+  "modified": "2025-05-06 15:38:03.310488",
+  "name": "field:make-{year}-0002",
+  "naming_series": null,
+  "phone_number": "9909989123",
+  "price_per_km": "23",
+  "return_date": "2025-05-08",
+  "services": [
+   {
+    "amount": 0.0,
+    "parent": "field:make-{year}-0002",
+    "parentfield": "services",
+    "parenttype": "Ride Booking DocType",
+    "service": "Wi-Fi Access"
+   }
+  ],
+  "total_amount": 0.0,
+  "type": "Bike",
+  "vehicle": "Yamaha R15"
+ },
+ {
+  "booking_date": "2025-05-07",
+  "customer": "krupa panchal",
+  "customer_name": "krupa panchal",
+  "docstatus": 0,
+  "doctype": "Ride Booking DocType",
+  "estimated_km": 35.0,
+  "make": "Honda",
+  "modified": "2025-05-06 15:53:16.468022",
+  "name": "field:make-{year}-0003",
+  "naming_series": null,
+  "phone_number": "9909989123",
+  "price_per_km": "34",
+  "return_date": "2025-05-08",
+  "services": [
+   {
+    "amount": 0.0,
+    "parent": "field:make-{year}-0003",
+    "parentfield": "services",
+    "parenttype": "Ride Booking DocType",
+    "service": "Wi-Fi Access"
+   }
+  ],
+  "total_amount": 0.0,
+  "type": "Sedan",
+  "vehicle": "Honda City"
+ },
+ {
+  "booking_date": "2025-05-07",
+  "customer": "krupa panchal",
+  "customer_name": "krupa panchal",
+  "docstatus": 0,
+  "doctype": "Ride Booking DocType",
+  "estimated_km": 23.0,
+  "make": "Toyota",
+  "modified": "2025-05-06 16:33:51.635789",
+  "name": "field:make-{year}-0004",
+  "naming_series": null,
+  "phone_number": "9909989123",
+  "price_per_km": "23",
+  "return_date": "2025-05-08",
+  "services": [
+   {
+    "amount": 0.0,
+    "parent": "field:make-{year}-0004",
+    "parentfield": "services",
+    "parenttype": "Ride Booking DocType",
+    "service": "Wi-Fi Access"
+   }
+  ],
+  "total_amount": 0.0,
+  "type": "SUV",
+  "vehicle": "Toyota Fortuner"
+ },
+ {
+  "booking_date": "2025-05-07",
+  "customer": "krupa panchal",
+  "customer_name": "krupa panchal",
+  "docstatus": 0,
+  "doctype": "Ride Booking DocType",
+  "estimated_km": 14.0,
+  "make": "Honda",
+  "modified": "2025-05-06 16:50:32.877301",
+  "name": "field:make-{year}-0005",
+  "naming_series": null,
+  "phone_number": "9909989123",
+  "price_per_km": "12",
+  "return_date": "2025-05-08",
+  "services": [
+   {
+    "amount": 0.0,
+    "parent": "field:make-{year}-0005",
+    "parentfield": "services",
+    "parenttype": "Ride Booking DocType",
+    "service": "Travel Insurance"
+   }
+  ],
+  "total_amount": 0.0,
+  "type": "Sedan",
+  "vehicle": "Honda City"
+ },
+ {
+  "booking_date": "2025-05-07",
+  "customer": "krupa panchal",
+  "customer_name": "krupa panchal",
+  "docstatus": 0,
+  "doctype": "Ride Booking DocType",
+  "estimated_km": 6.0,
+  "make": "Toyota",
+  "modified": "2025-05-06 16:53:06.933758",
+  "name": "qod6u6qncp",
+  "naming_series": null,
+  "phone_number": "9909989123",
+  "price_per_km": "4",
+  "return_date": "2025-05-08",
+  "services": [
+   {
+    "amount": 0.0,
+    "parent": "qod6u6qncp",
+    "parentfield": "services",
+    "parenttype": "Ride Booking DocType",
+    "service": "Tourist Guides"
+   }
+  ],
+  "total_amount": 0.0,
+  "type": "SUV",
+  "vehicle": "Toyota Fortuner"
+ },
+ {
+  "booking_date": "2025-05-06",
+  "customer": "krupa panchal",
+  "customer_name": "krupa panchal",
+  "docstatus": 0,
+  "doctype": "Ride Booking DocType",
+  "estimated_km": 13.0,
+  "make": "Yamaha",
+  "modified": "2025-05-06 16:58:02.337499",
+  "name": "tkngk6851v",
+  "naming_series": null,
+  "phone_number": "9909989123",
+  "price_per_km": "12",
+  "return_date": "2025-05-07",
+  "services": [],
+  "total_amount": 0.0,
+  "type": "Bike",
+  "vehicle": "Yamaha R15"
+ },
+ {
+  "booking_date": "2025-05-07",
+  "customer": "krupa panchal",
+  "customer_name": "krupa panchal",
+  "docstatus": 0,
+  "doctype": "Ride Booking DocType",
+  "estimated_km": 13.0,
+  "make": "Yamaha",
+  "modified": "2025-05-06 17:08:26.444386",
+  "name": "YAMAHAR15-2025-00001",
+  "naming_series": "YAMAHAR15-.YYYY.-.#####",
+  "phone_number": "9909989123",
+  "price_per_km": "12",
+  "return_date": "2025-05-08",
+  "services": [
+   {
+    "amount": 0.0,
+    "parent": "YAMAHAR15-2025-00001",
+    "parentfield": "services",
+    "parenttype": "Ride Booking DocType",
+    "service": "Tourist Guides"
+   }
+  ],
+  "total_amount": 156.0,
+  "type": "Bike",
+  "vehicle": "Yamaha R15"
+ }
+]

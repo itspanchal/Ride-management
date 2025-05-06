@@ -242,3 +242,13 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Item", "filters": [["item_code", "in", ["Wi-Fi Access", "Travel Insurance", "Tourist Guides"]]]},
+    {"dt": "Customer", "filters": [["customer_name", "in", ["krupa panchal", "digesh panchal"]]]},  # Replace with your names
+    {"dt": "Ride Booking DocType"},
+    {"dt": "Ride Add On"},
+    {"dt": "Vehicle Ride Doctype"},
+    {"dt": "Client Script"},  # for UI logic
+    {"dt": "Custom Field"},
+    {"dt": "Property Setter"},
+]

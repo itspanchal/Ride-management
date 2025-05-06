@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Ride Booking DocType",
+  "enabled": 1,
+  "modified": "2025-05-06 17:02:30.315713",
+  "module": "Programming module",
+  "name": "Ride Booking Client Script",
+  "script": "frappe.ui.form.on('Ride Booking DocType', {\n    validate(frm) {\n        // Calculate service total\n        let service_total = 0;\n        if (frm.doc.services && frm.doc.services.length) {\n            frm.doc.services.forEach(service => {\n                service_total += service.price || 0;\n            });\n        }\n\n        // Calculate total\n        const km_price = (frm.doc.price_per_km || 0) * (frm.doc.estimated_km || 0);\n        const total = km_price + service_total;\n\n        frm.set_value('total_amount', total);\n    },\n\n    before_save(frm) {\n        if (frm.doc.vehicle && !frm.doc.naming_series) {\n            // Remove spaces and make uppercase (optional logic)\n            const vehicle_code = frm.doc.vehicle.toUpperCase().replace(/\\s+/g, '');\n            const naming_series = `${vehicle_code}-.YYYY.-.#####`;\n            frm.set_value('naming_series', naming_series);\n        }\n    }\n});",
+  "view": "Form"
+ }
+]
