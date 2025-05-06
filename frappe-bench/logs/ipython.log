@@ -1,0 +1,3 @@
+2025-05-05 23:46:29,373 INFO ipython === bench console session ===
+2025-05-05 23:46:29,373 INFO ipython frappe.get_doc("DocType", "Energy Point Settings")
+2025-05-05 23:46:29,374 INFO ipython === session end ===

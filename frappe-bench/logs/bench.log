@@ -1,0 +1,124 @@
+2025-05-05 22:43:10,442 DEBUG cd frappe-bench && python3 -m venv env
+2025-05-05 22:43:12,696 DEBUG cd frappe-bench && /Users/upforcetech/Desktop/ride_management/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-05-05 22:43:13,858 DEBUG cd frappe-bench && /Users/upforcetech/Desktop/ride_management/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-05-05 22:43:14,340 LOG Getting frappe
+2025-05-05 22:43:14,340 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-05-05 22:43:18,567 LOG Installing frappe
+2025-05-05 22:43:18,567 DEBUG cd /Users/upforcetech/Desktop/ride_management/frappe-bench && /Users/upforcetech/Desktop/ride_management/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/upforcetech/Desktop/ride_management/frappe-bench/apps/frappe 
+2025-05-05 22:43:38,318 DEBUG cd /Users/upforcetech/Desktop/ride_management/frappe-bench/apps/frappe && yarn install --check-files
+2025-05-05 22:43:43,640 DEBUG cd frappe-bench && bench build
+2025-05-05 22:43:43,771 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench build
+2025-05-05 22:43:58,410 LOG setting up backups
+2025-05-05 22:43:58,451 LOG backups were set up
+2025-05-05 22:43:58,451 INFO Bench frappe-bench initialized
+2025-05-05 22:50:31,502 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench new-site ride.com
+2025-05-05 22:51:53,985 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com add-to-hosts
+2025-05-05 22:52:07,072 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench get-app erpnext --branch version-15
+2025-05-05 22:52:07,488 LOG Getting erpnext
+2025-05-05 22:52:07,488 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-05-05 22:52:15,289 LOG Installing erpnext
+2025-05-05 22:52:15,289 DEBUG cd /Users/upforcetech/Desktop/ride_management/frappe-bench && /Users/upforcetech/Desktop/ride_management/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/upforcetech/Desktop/ride_management/frappe-bench/apps/erpnext 
+2025-05-05 22:52:19,475 DEBUG cd /Users/upforcetech/Desktop/ride_management/frappe-bench/apps/erpnext && yarn install --check-files
+2025-05-05 22:52:19,906 DEBUG bench build --app erpnext
+2025-05-05 22:52:20,000 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench build --app erpnext
+2025-05-05 22:52:41,113 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com install-app erpnext
+2025-05-05 23:05:49,776 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com install-app erpnext
+2025-05-05 23:17:11,787 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com install-app erpnext
+2025-05-05 23:17:24,392 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-05 23:17:24,672 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-05 23:17:24,677 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-05 23:17:24,678 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-05 23:17:24,693 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-05 23:18:24,073 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-05 23:18:24,346 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-05 23:18:24,349 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-05 23:18:24,350 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-05 23:18:24,376 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-05 23:19:09,167 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench use ride.com
+2025-05-05 23:19:12,679 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-05 23:19:12,930 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-05 23:19:12,940 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-05 23:19:12,951 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-05 23:19:12,954 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-05 23:21:36,074 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench new-app ride_management
+2025-05-05 23:21:36,077 LOG creating new app ride_management
+2025-05-05 23:22:17,119 LOG Installing ride_management
+2025-05-05 23:22:17,120 DEBUG cd /Users/upforcetech/Desktop/ride_management/frappe-bench && /Users/upforcetech/Desktop/ride_management/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/upforcetech/Desktop/ride_management/frappe-bench/apps/ride_management 
+2025-05-05 23:22:18,279 DEBUG bench build --app ride_management
+2025-05-05 23:22:18,362 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench build --app ride_management
+2025-05-05 23:25:59,373 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com list-apps
+2025-05-05 23:26:12,406 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-05 23:26:12,668 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-05 23:26:12,671 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-05 23:26:12,671 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-05 23:26:12,675 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-05 23:28:00,332 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com install-app ride_management
+2025-05-05 23:29:18,010 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-05 23:29:18,268 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-05 23:29:18,272 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-05 23:29:18,290 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-05 23:29:18,296 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-05 23:33:38,264 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com set-admin-password newpassword
+2025-05-05 23:33:42,463 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-05 23:33:42,714 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-05 23:33:42,728 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-05 23:33:42,729 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-05 23:33:42,734 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-05 23:42:00,550 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com migrate
+2025-05-05 23:42:06,233 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-05 23:42:06,477 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-05 23:42:06,478 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-05 23:42:06,483 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-05 23:42:06,490 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-05 23:45:46,926 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com console
+2025-05-05 23:46:45,986 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com reload-doc social doctype energy_point_settings
+2025-05-05 23:46:59,997 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com migrate
+2025-05-05 23:47:15,469 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-05 23:47:15,752 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-05 23:47:15,756 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-05 23:47:15,757 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-05 23:47:15,761 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-05 23:48:30,097 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com migrate
+2025-05-05 23:48:55,744 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com reload-doc social doctype energy_point_log
+2025-05-05 23:49:13,983 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com reload-doc social doctype energy_point_settings
+2025-05-05 23:49:27,052 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com migrate
+2025-05-05 23:50:12,666 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com clear-cache
+2025-05-05 23:50:13,347 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com clear-website-cache
+2025-05-05 23:50:13,975 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench restart
+2025-05-05 23:50:23,416 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com clear-cache
+2025-05-05 23:50:28,575 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com clear-website-cache
+2025-05-05 23:50:34,626 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench restart
+2025-05-05 23:50:41,244 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-05 23:50:41,498 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-05 23:50:41,498 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-05 23:50:41,498 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-05 23:50:41,514 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-06 07:06:03,832 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-06 07:06:04,111 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-06 07:06:04,112 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-06 07:06:04,125 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-06 07:06:04,131 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-06 07:12:41,377 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com mariadb
+2025-05-06 07:14:55,165 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com migrate
+2025-05-06 07:20:07,150 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com mariadb
+2025-05-06 07:21:59,446 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com clear-cache
+2025-05-06 07:22:08,232 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com migrate
+2025-05-06 07:24:12,952 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com clear-cache
+2025-05-06 07:24:38,504 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com migrate
+2025-05-06 07:29:17,556 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com migrate
+2025-05-06 07:29:44,131 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench version
+2025-05-06 07:30:22,752 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com migrate
+2025-05-06 07:31:29,187 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-06 07:31:29,444 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-06 07:31:29,446 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-06 07:31:29,462 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-06 07:31:29,462 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-06 07:44:22,566 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench set-config developer_mode 1
+2025-05-06 07:53:51,356 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench start
+2025-05-06 07:53:51,624 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench schedule
+2025-05-06 07:53:51,625 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench serve --port 8000
+2025-05-06 07:53:51,636 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench worker
+2025-05-06 07:53:51,644 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench watch
+2025-05-06 12:00:01,196 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --verbose --site all backup
+2025-05-06 17:48:34,254 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com export-fixtures
+2025-05-06 17:48:58,761 INFO /Users/upforcetech/.pyenv/versions/3.11.8/bin/bench --site ride.com export-fixtures

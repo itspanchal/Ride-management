@@ -1,0 +1,6 @@
+2025-05-06 07:06:58,960 ERROR frappe New Exception collected in error log
+Site: ride.com
+Form Dict: {'doctype': 'Currency', 'name': 'INR', 'cmd': 'frappe.desk.form.load.getdoc'}
+2025-05-06 07:55:49,110 ERROR frappe New Exception collected in error log
+Site: ride.com
+Form Dict: {'doc': '{"doctype":"DocType","name":"First Ride Doctype","module":"First Ride Module","is_submittable":0,"istable":0,"editable_grid":0,"issingle":0,"is_tree":0,"custom":1,"permissions":[{"create":1,"delete":1,"email":1,"export":1,"print":1,"read":1,"report":1,"role":"System Manager","share":1,"write":1,"submit":0}],"fields":[{"fieldtype":"Section Break"}]}', 'cmd': 'frappe.client.insert'}

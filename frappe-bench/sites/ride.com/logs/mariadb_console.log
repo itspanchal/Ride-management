@@ -1,0 +1,12 @@
+_HiStOrY_V2_
+DESCRIBE\040`tabCommunication`;
+exit()
+;
+exit();
+DESC\040`tabAddress`;
+ALTER\040TABLE\040`tabAddress`
+ADD\040COLUMN\040`tax_category`\040varchar(140),
+ALTER\040TABLE\040`tabAddress`
+ADD\040COLUMN\040`tax_category`\040varchar(140),
+ADD\040COLUMN\040`is_your_company_address`\040int(1)\040NOT\040NULL\040DEFAULT\0400;
+ALTER\040TABLE\040`tabAddress`\040\040ADD\040COLUMN\040`tax_category`\040varchar(140),\040ADD\040COLUMN\040`is_your_company_address`\040int(1)\040NOT\040NULL\040DEFAULT\0400;
